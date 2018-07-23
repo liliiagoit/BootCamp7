@@ -1,0 +1,94 @@
+.catalog {
+    width: 1100px;
+   
+    margin: auto;
+    margin-top: 70px;
+    
+}
+.card {
+    float: left;
+    vertical-align: top;
+    height: 320px;
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.card:hover .title {
+    background-color: rgba(26, 188, 156, 0.6);
+    
+}
+
+
+
+.card:last-child {
+   
+    margin-right: 0;
+}
+
+
+
+
+
+.icon {
+    width: 250px;
+    height: 280px;
+    vertical-align: bottom;    
+}
+
+.icon-icon {
+    background-color: #e9f0fd;
+    width: 250px;
+    height: 280px;
+    vertical-align: bottom;    
+}
+}
+
+
+.p {
+    margin-top: 0;
+}
+
+
+
+
+.title {
+    text-transform: uppercase;
+    float: left;
+    color: #fff;
+    padding: 12px 60px 12px 14px;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    font-family: "Roboto Black";
+
+}
+
+.title:hover {
+    background-color: #7fd9c7;
+    color: green;
+}
+
+    
+.price {
+    float: right;
+    background-color: #8c8c8c;
+    width: 50px;
+    height: 40px;
+    padding: 12px 12px 11px 13px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Roboto Black";
+   
+    
+}
+
+.price:hover {
+    background-color: #7fd9c7;
+    color: green;
+}
+
+
+
+
+
