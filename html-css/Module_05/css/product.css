@@ -1,0 +1,150 @@
+.wrapper-products {
+    width: 100%;
+    height: 800px;
+    background-color: #e9f0fd; 
+    /* margin-bottom: 200px; */
+    
+}
+
+.catalog {
+    width: 1100px;
+    margin: auto;
+    /* height: 100%; */
+    
+    font-size: 0;
+   
+}
+
+
+
+.new-title {
+    padding-top: 100px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    color: #515151;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-bottom: 110px;
+}
+
+.new-title::after {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin-left: 470px;
+    margin-top: 30px;
+
+
+}
+.product-card .card {
+    /* display: inline; */
+    /* width: 300px;
+    height: 300px; */
+    float: left;  
+    
+    /* width: 1110px;
+    margin: auto;   */
+
+}
+
+.product-card .card:last-child {
+    margin-right: 0;
+}
+
+.card {
+    position: relative;
+    margin-right: 20px;
+    width: 260px;
+    height: 375px;
+    cursor: pointer;
+    font-size: 0;
+    /* border: 2px solid  #e9f0fd; */
+}
+
+/* .card:hover {
+    background-color: gray;
+    z-index: 10px;
+    position: absolute; */
+}
+
+
+/* .icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+} */
+
+   
+
+img {
+    width: 255px;
+    height: auto;
+}
+
+/* .product-card .card:first-child {
+    margin-left: 100px;
+} */
+
+.together {
+    display: inline-block;
+    
+    
+    /* width: 255px;
+    height: 30px;
+    */
+}
+
+.name {
+    width: 200px;
+    /* width: 200px;
+    height: 40px; */
+    background-color: #323232;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 60px 12px 13px;
+    float: left;
+    
+    
+}
+
+.price {
+    /* display: inline-block; */
+    /* width: 83px;
+    height: 44px; */
+    background-color: #8c8c8c;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 11px;
+    float: right;
+    width: 55px;
+}
+
+.card:hover .name {
+    background-color: #1abc9c;
+}
+
+.card:hover .price {
+    background-color: #1abc9c;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
