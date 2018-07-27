@@ -55,13 +55,13 @@
 }
 
 .card {
-    position: relative;
+    /* position: relative; */
     margin-right: 20px;
     width: 260px;
-    height: 375px;
+    height: auto;
     cursor: pointer;
     font-size: 0;
-    /* border: 2px solid  #e9f0fd; */
+    border: 2px solid  #e9f0fd;
 }
 
 /* .card:hover {
@@ -95,6 +95,7 @@ img {
 
 .together {
     display: inline-block;
+    /* margin-bottom: 100px; */
     
     
     /* width: 255px;
@@ -139,6 +140,51 @@ img {
     background-color: #1abc9c;
     opacity: 0.5;
 }
+
+/* .menu-shadow {
+    width: 245px;
+    height: 250px;
+    background-color: greenyellow;
+    
+    font-size: 0;
+
+}
+
+.img:hover .menu-shadow {
+    opacity: 0.5;
+    /* display: block; */
+}
+
+/* .icons li {
+    display: inline-block;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    
+}
+
+.icon-btn {
+    
+} */
+
+/* a {
+    width: 15px;
+    height: 15px;
+    
+    float: left;
+    
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    margin: 0;
+    /* margin-right: 5px; */
+    /* padding: 0;
+} */
+ */ */
+
 
 
 
