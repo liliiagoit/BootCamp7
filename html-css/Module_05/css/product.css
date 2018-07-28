@@ -2,20 +2,13 @@
     width: 100%;
     height: 800px;
     background-color: #e9f0fd; 
-    /* margin-bottom: 200px; */
-    
 }
 
 .catalog {
     width: 1100px;
     margin: auto;
-    /* height: 100%; */
-    
     font-size: 0;
-   
 }
-
-
 
 .new-title {
     padding-top: 100px;
@@ -36,18 +29,10 @@
     background-color: #1abc9c;
     margin-left: 470px;
     margin-top: 30px;
-
-
 }
-.product-card .card {
-    /* display: inline; */
-    /* width: 300px;
-    height: 300px; */
-    float: left;  
-    
-    /* width: 1110px;
-    margin: auto;   */
 
+.product-card .card {
+    float: left;  
 }
 
 .product-card .card:last-child {
@@ -55,73 +40,35 @@
 }
 
 .card {
-    /* position: relative; */
-    margin-right: 20px;
+    margin:0 20px 20px 0;
     width: 260px;
-    height: auto;
     cursor: pointer;
     font-size: 0;
     border: 2px solid  #e9f0fd;
+    position: relative;
 }
-
-/* .card:hover {
-    background-color: gray;
-    z-index: 10px;
-    position: absolute; */
-}
-
-
-/* .icons {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: red;
-} */
-
-   
 
 img {
     width: 255px;
-    height: auto;
+    height: 280px;
 }
-
-/* .product-card .card:first-child {
-    margin-left: 100px;
-} */
 
 .together {
     display: inline-block;
-    /* margin-bottom: 100px; */
-    
-    
-    /* width: 255px;
-    height: 30px;
-    */
 }
 
 .name {
     width: 200px;
-    /* width: 200px;
-    height: 40px; */
     background-color: #323232;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
     padding: 10px 60px 12px 13px;
-    float: left;
-    
-    
+    float: left;  
 }
 
 .price {
-    /* display: inline-block; */
-    /* width: 83px;
-    height: 44px; */
     background-color: #8c8c8c;
     color: #ffffff;
     text-transform: uppercase;
@@ -141,49 +88,111 @@ img {
     opacity: 0.5;
 }
 
-/* .menu-shadow {
-    width: 245px;
-    height: 250px;
-    background-color: greenyellow;
-    
-    font-size: 0;
 
-}
+.appear-card {
 
-.img:hover .menu-shadow {
-    opacity: 0.5;
-    /* display: block; */
-}
-
-/* .icons li {
-    display: inline-block;
-    width: 200px;
-    padding: 0;
-    margin: 0;
-    font-size: 0;
-    
-}
-
-.icon-btn {
-    
-} */
-
-/* a {
-    width: 15px;
-    height: 15px;
-    
-    float: left;
-    
-    background-color: red;
+    width: 235px;
+    height: 80%;
+    background-color: rgba(115, 115, 115, 0.5);
+    padding: 70px 27px;
+    position: absolute;
+    margin: auto;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
+    opacity: 0;
+}
+    
+
+
+.appear-card:hover {
+    opacity: 1;
+}
+
+.click {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-heart {
+    width: 50px;
+    float: left;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition: 1s;
+    cursor: pointer;
+    transition: 2s;
+}
+
+
+
+.btn-arrows {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.btn-bucket {
+    background-image: url("../image/buy.png"); 
+    background-repeat: no-repeat;
+    background-position: 13px 8px;
+    padding-left: 60px; 
+    padding-right: 10px;
+    width: 170px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btn-heart:hover {
+    background-color: #1abc9c;
     border: none;
-    margin: 0;
-    /* margin-right: 5px; */
-    /* padding: 0;
-} */
- */ */
+}
+
+.btn-heart:focus {
+    background-color: #1abc9c;
+    border: none;
+}
+
+.btn-arrows:hover {
+    background-color: #1abc9c;
+    border: none;
+}
+
+.btn-arrows:focus {
+    background-color: #1abc9c;
+    border: none;
+}
+
+.btn-clock:hover {
+    background-color: #1abc9c;
+    border: none;
+}
+
+.btn-clock:focus {
+    background-color: #1abc9c;
+    border: none;
+}
+
+.btn-bucket:hover {
+    background-color: #323232;
+}
+
+.btn-bucket:focus {
+    background-color: #323232;
+}
+
+
+
+
+
 
 
 
