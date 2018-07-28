@@ -46,14 +46,14 @@
     color: #1abc9c;
 }
 
-
-
 .nav-link:hover {
     color: #228B22;
 }
+
 .nav-link:focus {
     color: #ff450f;
 }
+
 .nav-link:last-child {
     margin-right: 0;
 }
