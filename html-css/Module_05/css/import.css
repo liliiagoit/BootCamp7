@@ -1,13 +1,5 @@
 @import "reset.css";
-/* @import "style.css"; */
 @import "header.css";
 @import "slider.css";
 @import "product.css";
 @import "footer.css";
-
-/* background-blend-mode: lighten; -для накладывания картинки или фона сверху другой (и бги перечисляем картинки через запятые) */
-/* background-color: transparent; - для прозрачности фона */
-
-/* :root {--main-bg-color: coral;
-         --f-s1: 8px; итд
-/* } для вызовов дерективы в классе пишем { background-color: var (--main-bg-color);} */ /* variable- переменная */
