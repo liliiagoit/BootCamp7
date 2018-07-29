@@ -3,30 +3,52 @@
     /* min-width: 400px; 
     max-width: 1000px;
     min-height: 100%; */
-    background-color: #cbebe0;
+   
     margin: auto;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    /* display: flex; */
 
-} */
+
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+
 
 .work-title {
     text-align: center;
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 2;
 }
 
 .amazing-title {
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
 }
 
 .amazing-title::after {
     content: "";
-    border: 3px solid #f38181;
-    width: 50px;
+    border: 2px solid #f38181;
+    width: 60px;
     display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
+    margin-left: 570px;
+    margin-top: 30px;
+    
+    /* align-items: center;
+    align-self: auto;
+    /* justify-content: space-between; */
+    /* align-items: center;  */
 
 }
 
@@ -36,15 +58,58 @@
 }
 
 .service {
+    width: 350px;
+    height: 150px;
   
-   
 }
 
-.about-us {
+/* .service::before {
+      content: "";
+      background-image: url("../image/alarm.png");
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      display: inline-block;
 
-}
+} */
+
+
+
+/* .about-us::before {
+    content: "";
+    background-image: url("../image/alarm.png");
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    display: inline-block;
+} */
 
 .text {
     display: flex;
    
+}
+
+.skills {
+    font-family: "Monrserrat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #333333;
+    line-height: 2;
+}
+
+.describe {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+    line-height: 1.5;
 }

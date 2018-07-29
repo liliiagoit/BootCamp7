@@ -21,7 +21,8 @@
 
 .appear-icons {
     position: absolute;
-    background-color: rgba(248, 159, 137, 0.8);
+    background-image: linear-gradient(rgba(248, 159, 137, 0.8), rgba(255, 247, 145, 0.8));
+    /* background-color: rgba(248, 159, 137, 0.8); */
     opacity: 0;
     width: 100%;
     height: 500px;
@@ -53,6 +54,8 @@
     height: 50px; */
 }
 
+
+
 /* .btn-icon {
     position: absolute;
     top: 50%;
@@ -67,7 +70,7 @@
     background-repeat: no-repeat;
     border: none;
     background-position: 10px 5px;
-    background-color: #fff;
+    background-color: #fce38a;
    
 }
 
@@ -78,7 +81,7 @@
     background-repeat: no-repeat;
     border: none;
     background-position: 10px 5px;
-    background-color: #fff;
+    background-color: #fce38a;
 }
 
 .icon-pinterest {
@@ -88,7 +91,7 @@
     background-repeat: no-repeat;
     border: none;
     background-position: 10px 5px;
-    background-color: #fff;
+    background-color: #fce38a;
 }
 
 .icon-instagram {
@@ -98,7 +101,7 @@
     background-repeat: no-repeat;
     border: none;
     background-position: 10px 5px;
-    background-color: #fff;
+    background-color: #fce38a;
 }
 
 .click-icons {
@@ -132,10 +135,12 @@
     /* position: absolute; */
     top: 0;
     left: 0;
-    box-shadow: 20px 20px 0 0 rgba(230,28,95,1);
+    box-shadow: 20px 20px 0 0 #95e1d3;
+    
     /* border-right-color: 7px solid green; */
 }
 
 .btn-icon:hover {
-    background-color: green;
+    background-color: #95e1d3;
+    cursor: pointer;
 }
