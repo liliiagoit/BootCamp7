@@ -37,12 +37,14 @@
 
 
 .social-links {
-     width: 40px;
+    width: 40px;
     height: 40px;
+   
+   
     /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); */ */
+    transform: translate(-50%, -50%); */ 
     /* border: none; */
     /* top: 50%;
     left: 50%;
@@ -67,11 +69,10 @@
     background-image: url("../image/facebook.png");
     width: 40px;
     height: 40px;
+    border:none;
     background-repeat: no-repeat;
-    border: none;
     background-position: 10px 5px;
     background-color: #fce38a;
-   
 }
 
 .icon-twitter {
@@ -143,4 +144,19 @@
 .btn-icon:hover {
     background-color: #95e1d3;
     cursor: pointer;
+}
+
+.name-title {
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.text-describe {
+    font-family: "Roboto Light Italic", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #999999;
 }
