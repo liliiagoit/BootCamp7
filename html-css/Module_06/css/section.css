@@ -8,5 +8,43 @@
     /* display: flex;
     flex-direction: column;
     justify-content: flex-start;
-} */
 
+} */
+}
+
+.work-title {
+    text-align: center;
+}
+
+.amazing-title {
+    text-align: center;
+}
+
+.amazing-title::after {
+    content: "";
+    border: 3px solid #f38181;
+    width: 50px;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+
+}
+
+.icon-news {
+    width: 30px;
+    height: 30px;
+}
+
+.service {
+  
+   
+}
+
+.about-us {
+
+}
+
+.text {
+    display: flex;
+   
+}
