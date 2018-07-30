@@ -1,24 +1,13 @@
 .section {
     width: 1200px;
-    /* min-width: 400px; 
-    max-width: 1000px;
-    min-height: 100%; */
-   
     margin: auto;
-    /* display: flex; */
-
-
 }
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
-
-
-
 
 .work-title {
     text-align: center;
@@ -44,12 +33,6 @@
     display: flex;
     margin-left: 570px;
     margin-top: 30px;
-    
-    /* align-items: center;
-    align-self: auto;
-    /* justify-content: space-between; */
-    /* align-items: center;  */
-
 }
 
 .icon-news {
@@ -63,33 +46,10 @@
     height: 150px;
     display: flex;
     margin-top: 30px;
-  
 }
 
- /* .service::before {
-      content: "";
-      background-image: url(../image/alarm.png);
-      width: 30px;
-      height: 30px;
-      margin-right: 10px;
-      display: inline-block;
-
-}  */
-
-
-
- /* .about-us::before {
-    content: "";
-    background-image: url("../image/alarm.png");
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    display: inline-block; */
-} 
-
 .text {
-    display: flex;
-   
+    display: flex; 
 }
 
 .skills {
@@ -97,8 +57,7 @@
     font-weight: 400;
     text-transform: uppercase;
     font-size: 14px;
-    color: #333333;
-    
+    color: #333333;  
 }
 
 .describe {

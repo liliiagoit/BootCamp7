@@ -9,24 +9,20 @@
 
     
 .specialist-img {
-    
     width: 380px;
     height: 470px;
 }
 
 .team-participants {
-    position: relative;
-    
+    position: relative;    
 }
 
 .appear-icons {
     position: absolute;
     background-image: linear-gradient(rgba(248, 159, 137, 0.8), rgba(255, 247, 145, 0.8));
-    /* background-color: rgba(248, 159, 137, 0.8); */
     opacity: 0;
     width: 100%;
     height: 500px;
-    /* min-height: 90%; */
     padding-top: 0;
     top: 50%;
     left: 50%;
@@ -34,36 +30,10 @@
     transition: 3s;  
 }
 
-
-
 .social-links {
     width: 40px;
     height: 40px;
-   
-   
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */ 
-    /* border: none; */
-    /* top: 50%;
-    left: 50%;
-     */
-    /* transform: translate() */
-    /* padding: 50px 40px; */
-    /* transform: translate(-50%, -50%); */
-    /* width: 50px;
-    height: 50px; */
 }
-
-
-
-/* .btn-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}  */
 
 .icon-facebook {
     background-image: url("../image/facebook.png");
@@ -107,15 +77,8 @@
 
 .click-icons {
     display: flex;
-    margin-top: 250px; !!!!!
+    margin-top: 250px; 
     margin-left: 100px;
-    justify-content: center;
-
-    /* position: absolute;
-    top: 50%;
-    left: 25%;
-    margin-right: 0; */
-
 }
 
 .name-title {
@@ -125,20 +88,14 @@
 
 .text-describe {
     text-align: center;
-    /* line-height: 1; */
 }
-
-
 
 .appear-icons:hover {
     opacity: 1;
     transform: translate(-5%, -10%);
-    /* position: absolute; */
     top: 0;
     left: 0;
     box-shadow: 20px 20px 0 0 #95e1d3;
-    
-    /* border-right-color: 7px solid green; */
 }
 
 .btn-icon:hover {

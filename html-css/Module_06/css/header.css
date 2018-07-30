@@ -8,7 +8,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 40px 2px 40px 2px;
-
 }
 
 .logo {
@@ -19,6 +18,7 @@
 .logo-link {
     color: #95e1d3;
 }
+
 .logo-link:hover {
     color: #f38181;
 }
@@ -41,8 +41,7 @@
 }
 
 .title-item {
-    color: #f38181;
-   
+    color: #f38181; 
 } 
 
 .menu-link::after {
