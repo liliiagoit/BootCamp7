@@ -55,34 +55,37 @@
 .icon-news {
     width: 30px;
     height: 30px;
+    margin-right: 15px;
 }
 
 .service {
     width: 350px;
     height: 150px;
+    display: flex;
+    margin-top: 30px;
   
 }
 
-/* .service::before {
+ /* .service::before {
       content: "";
-      background-image: url("../image/alarm.png");
+      background-image: url(../image/alarm.png);
       width: 30px;
       height: 30px;
       margin-right: 10px;
       display: inline-block;
 
-} */
+}  */
 
 
 
-/* .about-us::before {
+ /* .about-us::before {
     content: "";
     background-image: url("../image/alarm.png");
     width: 30px;
     height: 30px;
     margin-right: 10px;
-    display: inline-block;
-} */
+    display: inline-block; */
+} 
 
 .text {
     display: flex;
@@ -95,7 +98,7 @@
     text-transform: uppercase;
     font-size: 14px;
     color: #333333;
-    line-height: 2;
+    
 }
 
 .describe {
@@ -103,6 +106,7 @@
     font-size: 15px;
     font-weight: 400;
     color: #999999;
+    margin-top: 10px;
 }
 
 .text {
@@ -112,4 +116,10 @@
     color: #999999;
     text-align: center;
     line-height: 1.5;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
