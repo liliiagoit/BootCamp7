@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 950px;
+    margin: auto;
+}
+
+.section {
+    /* min-height: 100vh;
+    max-height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+    margin-bottom: 70px;
+}
+
+.logo {
+    color: #fed136;
+    cursor: pointer;
+    font-family: "Lobster", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.logo:hover {
+    color: chocolate;
+}
+
+.menu-link {
+    margin-right: 40px;
+    font-family: "Montserat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 12px;
+}
+
+.menu-link:hover {
+    color: chocolate;
+}
+
+.home-link {
+    color: #fed136;
+}
+.menu-link:last-child {
+    margin-right: 0;
+}
+
+.main {
+    width: 950px;
+    margin: auto;
+}
+
+.main-title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.subtitle {
+    text-align: center;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #a2a2a2;
+    font-size: 16px;
+    margin-bottom: 80px;
+    
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icon-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 3px solid #fed136;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.icon-title {
+    text-align: center;
+    line-height: 2.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.text {
+    text-align: center;
+    line-height: 1.5;
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 14px;
+    color: #a2a2a2;
+}
+
+.about-us {
+    width: 300px;
+    margin-bottom: 120px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* justify-content: space-between; */
+    
+
+}
+
+.background {
+    width: 950px;
+    margin: auto;
+    height: 670px;
+}
+
+.black-side {
+   background-image: url("../image/background_160.png");
+   background-position: center;
+   background-size: cover;
+   margin-bottom: 50px;
+   
+}
+
+.contact {
+    text-align: center;
+    padding-top: 110px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 25px;
+
+}
+
+.title-text {
+    text-align: center;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #a2a2a2;
+    font-size: 16px;
+    padding-bottom: 70px;
+
+}
+
+input {
+    width: 450px;
+    height: 50px;
+   
+    
+}
+
+/* .connection {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* justify-content: center;
+    align-items: center;
+} */
+
+
+.message {
+    height: 210px;
+}
+
