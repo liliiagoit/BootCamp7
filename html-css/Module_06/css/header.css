@@ -13,38 +13,55 @@
 .logo {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
-}
-
-.logo-link {
     color: #95e1d3;
+    font-size: 35px;
 }
 
-.logo-link:hover {
+.logo:hover {
     color: #f38181;
 }
 
-.link {
+.menu-link {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #95e1d3;
     text-transform: uppercase;
     margin-right: 60px;
+    float: right;
 }
 
-.link:hover {
-    color: chartreuse;
-}
-
-.link:last-child  {
+.menu-link:last-child  {
     margin-right: 0;
+}
+
+ul.menu-link li {
+    float: left;
+    list-style: none;
+}
+
+
+.title-item a {
+    color: #95e1d3;
+    margin-right: 30px;
+
+}
+
+.title-item li {
+   float: left;
 }
 
 .title-item {
     color: #f38181; 
 } 
 
-.menu-link::after {
+.title-item a:hover {
+    color: chartreuse;
+}
+
+
+
+.title-item:hover::after {
     content: "";
     border: 2px solid #f38181;
     width: 50px;
