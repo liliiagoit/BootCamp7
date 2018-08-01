@@ -26,6 +26,7 @@ a {
     font-family: "Lobster", sans-serif;
     font-style: italic;
     font-weight: 400;
+    font-size: 30px;
 }
 
 .logo:hover {
@@ -35,22 +36,25 @@ a {
 .menu-link {
     margin-right: 40px;
     font-family: "Montserat", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     color: #000;
-    font-size: 12px;
+    font-size: 14px;
+    display: inline-block;
+    padding-top: 10px;
 }
 
 .menu-link:hover {
-    color: chocolate;
-}
-
-.home-link {
     color: #fed136;
 }
 
 .menu-link:last-child {
     margin-right: 0;
+}
+
+ul.navigation li {
+   display: inline-block;
+   margin-right: 20px;
 }
 
 .main {
