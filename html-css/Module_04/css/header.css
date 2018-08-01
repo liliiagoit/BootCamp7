@@ -37,17 +37,22 @@
     float: right;
 }
 
-.nav-link {
+ul.navigation li {
+    float: left;
+    list-style: none;
+}
+
+.nav-link a {
     color: #0f0101;
     margin-right: 30px;
 }
 
-.nav-link:first-child {
-    color: #1abc9c;
+.nav-link li {
+    float: left;
 }
 
-.nav-link:hover {
-    color: #228B22;
+.nav-link a:hover {
+    color: #1abc9c;
 }
 
 .nav-link:focus {

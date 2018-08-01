@@ -13,6 +13,7 @@
     text-transform: uppercase;
     font-weight: bold;
     color: #555252;
+    font-size: 30px;
 }
 
 .title-two::after {
@@ -66,7 +67,7 @@
     margin-top: 15px;  
 }
 
-.b {
+.info {
     font-family: "OpenSans", sans-serif;
     font-size: 14px;
     line-height: 1.6;
