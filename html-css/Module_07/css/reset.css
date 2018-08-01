@@ -1,9 +1,5 @@
 @import "style.css";
 
-
-
-
-
 @font-face {
     font-family: 'ABeeZee';
     font-style: normal;
@@ -32,8 +28,6 @@
   }
 
 
-
-
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
@@ -43,7 +37,6 @@
          url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
          url('../fonts/montserrat-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
 }
-
 
 
 @font-face {
@@ -58,7 +51,6 @@
          url('../fonts/roboto-slab-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/roboto-slab-v7-latin-regular.svg#RobotoSlab') format('svg'); /* Legacy iOS */
   }
-
 
  
   @font-face {
