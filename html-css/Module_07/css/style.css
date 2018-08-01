@@ -180,6 +180,8 @@ input[type="text"], input[type="email"] {
     text-indent: 10px;
     color: #cacaca;
     padding-top: 8px;
+    border-radius: 5px;
+    border: none;
     
 }
 
@@ -200,11 +202,7 @@ input[type="text"], input[type="email"] {
     /* padding: 25px 50px; */
     /* width: 240px;
     height: 40px; */
-    background-color: #fed136;
-    border-radius: 10px;
-    border: none;
-
-    margin-top: 10px;
+   
 }
 
 .inputs {
@@ -215,6 +213,7 @@ input[type="text"], input[type="email"] {
     width: 455px;
     font-family: "Roboto Slab", sans-serif;
     font-weight: 700;
+   
   
 }
 
@@ -231,6 +230,7 @@ textarea{
     text-indent: 10px;
     color: #cacaca;
     padding-top: 10px;
+    border-radius: 5px;
 
 }
 
@@ -242,6 +242,11 @@ input[type="submit"]{
     font-size: 14px;
     text-indent: 10px;
     color: #ffffff;
+    background-color: #fed136;
+    border-radius: 5px;
+    border: none;
+
+    margin-top: 20px;
 
     
 }
@@ -261,7 +266,11 @@ input[type="submit"]{
 
 }
 
-
+textarea, input:valid {
+    outline-color: green;
+}
     
     
-    
+textarea, input:invalid {
+    outline-color: red;
+}   
