@@ -1,0 +1,46 @@
+.last {
+    width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+    border-top: 1px solid grey;
+    width: 1200px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #333333;
+}
+
+.span {
+    color: #f38181;
+}
+
+.email {
+    width: 230px;
+    height: 40px;
+    text-indent: 10px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-style: 15px;
+    color: #cccccc;
+}
+
+.button-input {
+    width: 150px;
+    height: 42px;
+    color: #ffffff;
+    background-color: #95e1d3;
+    cursor: pointer;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}

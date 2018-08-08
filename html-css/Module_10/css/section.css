@@ -1,0 +1,85 @@
+.section {
+    width: 1200px;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+.work-title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Kaushan Script", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.amazing-title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.amazing-title::after {
+    content: "";
+    border: 2px solid #f38181;
+    width: 60px;
+    display: flex;
+    margin-left: 570px;
+    margin-top: 30px;
+}
+
+.icon-news {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.service {
+    width: 350px;
+    height: 150px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.text {
+    display: flex; 
+}
+
+.skills {
+    font-family: "Monrserrat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #333333;  
+}
+
+.describe {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 10px;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
