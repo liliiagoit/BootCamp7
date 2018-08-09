@@ -2,12 +2,18 @@
     width: 1200px;
     margin: auto;
     margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
-
-    
+   
 .specialist-img {
     width: 380px;
     height: 470px;
@@ -19,6 +25,9 @@
 
 .appear-icons {
     position: absolute;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 159, 137, 0.8)), to(rgba(255, 247, 145, 0.8)));
+    background-image: -webkit-linear-gradient(rgba(248, 159, 137, 0.8), rgba(255, 247, 145, 0.8));
+    background-image: -o-linear-gradient(rgba(248, 159, 137, 0.8), rgba(255, 247, 145, 0.8));
     background-image: linear-gradient(rgba(248, 159, 137, 0.8), rgba(255, 247, 145, 0.8));
     opacity: 0;
     width: 100%;
@@ -26,7 +35,11 @@
     padding-top: 0;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    -webkit-transform: translate(-50%, -60%);
+        -ms-transform: translate(-50%, -60%);
+            transform: translate(-50%, -60%);
+    -webkit-transition: 2s;
+    -o-transition: 2s;
     transition: 2s;  
 }
 
@@ -76,6 +89,8 @@
 }
 
 .click-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 250px; 
     margin-left: 100px;
@@ -92,10 +107,13 @@
 
 .appear-icons:hover {
     opacity: 1;
-    transform: translate(-5%, -10%);
+    -webkit-transform: translate(-5%, -10%);
+        -ms-transform: translate(-5%, -10%);
+            transform: translate(-5%, -10%);
     top: 0;
     left: 0;
-    box-shadow: 20px 20px 0 0 #95e1d3;
+    -webkit-box-shadow: 20px 20px 0 0 #95e1d3;
+            box-shadow: 20px 20px 0 0 #95e1d3;
 }
 
 .btn-icon:hover {
@@ -116,4 +134,19 @@
     font-weight: 300;
     font-style: italic;
     color: #999999;
+}
+
+.svg-img {
+    fill: #f38181;
+    cursor: pointer;
+    background-color: #fce38a;
+    background-position: center;
+    width: 42px;
+    height: 42px;
+    padding: 5px;
+}
+
+.svg-img:hover {
+    fill: #ffffff;
+    background-color: #f38181;
 }

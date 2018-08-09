@@ -4,9 +4,13 @@
 }
 
 .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;  
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;  
 }
 
 .work-title {
@@ -31,6 +35,8 @@
     content: "";
     border: 2px solid #f38181;
     width: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 570px;
     margin-top: 30px;
@@ -45,11 +51,15 @@
 .service {
     width: 350px;
     height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 30px;
 }
 
 .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; 
 }
 
@@ -79,7 +89,14 @@
 }
 
 .about-us {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
 }
