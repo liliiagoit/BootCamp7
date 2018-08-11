@@ -14,16 +14,16 @@
             justify-content: space-between;
 }
    
-.specialist-img {
+.menu-team__img {
     width: 380px;
     height: 470px;
 }
 
-.team-participants {
+.menu-team__participants {
     position: relative;    
 }
 
-.appear-icons {
+.participants__appear-icons {
     position: absolute;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 159, 137, 0.8)), to(rgba(255, 247, 145, 0.8)));
     background-image: -webkit-linear-gradient(rgba(248, 159, 137, 0.8), rgba(255, 247, 145, 0.8));
@@ -43,52 +43,7 @@
     transition: 2s;  
 }
 
-.social-links {
-    width: 40px;
-    height: 40px;
-}
-
-.icon-facebook {
-    background-image: url("../image/facebook.png");
-    width: 40px;
-    height: 40px;
-    border:none;
-    background-repeat: no-repeat;
-    background-position: 10px 5px;
-    background-color: #fce38a;
-}
-
-.icon-twitter {
-    background-image: url("../image/twitter.png");
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    border: none;
-    background-position: 10px 5px;
-    background-color: #fce38a;
-}
-
-.icon-pinterest {
-    background-image: url("../image/pinterest.png");
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    border: none;
-    background-position: 10px 5px;
-    background-color: #fce38a;
-}
-
-.icon-instagram {
-    background-image: url("../image/instagram.png");
-    width: 40px;
-    height: 40px;
-    background-repeat: no-repeat;
-    border: none;
-    background-position: 10px 5px;
-    background-color: #fce38a;
-}
-
-.click-icons {
+.participants__click-icons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -96,16 +51,25 @@
     margin-left: 100px;
 }
 
-.name-title {
+.menu-team__name {
     text-align: center;
     line-height: 3;
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
 }
 
-.text-describe {
+.menu-team__text {
     text-align: center;
+    font-family: "Roboto Light Italic", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #999999;
 }
 
-.appear-icons:hover {
+.participants__appear-icons:hover {
     opacity: 1;
     -webkit-transform: translate(-5%, -10%);
         -ms-transform: translate(-5%, -10%);
@@ -116,27 +80,7 @@
             box-shadow: 20px 20px 0 0 #95e1d3;
 }
 
-.btn-icon:hover {
-    background-color: #95e1d3;
-    cursor: pointer;
-}
-
-.name-title {
-    margin-top: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #333333;
-}
-
-.text-describe {
-    font-family: "Roboto Light Italic", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    color: #999999;
-}
-
-.svg-img {
+.participants__svg-img {
     fill: #f38181;
     cursor: pointer;
     background-color: #fce38a;
@@ -146,7 +90,7 @@
     padding: 5px;
 }
 
-.svg-img:hover {
+.participants__svg-img:hover {
     fill: #ffffff;
     background-color: #f38181;
 }

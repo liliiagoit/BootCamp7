@@ -1,9 +1,9 @@
-.section {
+.section-main {
     width: 1200px;
     margin: auto;
 }
 
-.flex-container {
+.section-main__content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13,7 +13,7 @@
         justify-content: space-around;  
 }
 
-.work-title {
+.section-main__title {
     margin-top: 50px;
     text-align: center;
     font-family: "Kaushan Script", sans-serif;
@@ -22,7 +22,7 @@
     line-height: 2;
 }
 
-.amazing-title {
+.section-main__subtitle {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
@@ -31,7 +31,7 @@
     padding-bottom: 40px;
 }
 
-.amazing-title::after {
+.section-main__subtitle::after {
     content: "";
     border: 2px solid #f38181;
     width: 60px;
@@ -42,13 +42,13 @@
     margin-top: 30px;
 }
 
-.icon-news {
+.section-main__icon-news {
     width: 30px;
     height: 30px;
     margin-right: 15px;
 }
 
-.service {
+.section-main__service {
     width: 350px;
     height: 150px;
     display: -webkit-box;
@@ -57,13 +57,7 @@
     margin-top: 30px;
 }
 
-.text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; 
-}
-
-.skills {
+.section-main__skills {
     font-family: "Monrserrat", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -71,7 +65,7 @@
     color: #333333;  
 }
 
-.describe {
+.section-main__describe {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -79,7 +73,7 @@
     margin-top: 10px;
 }
 
-.text {
+.section-main__paragraph {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -88,7 +82,7 @@
     line-height: 1.5;
 }
 
-.about-us {
+.section-main__about-us {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
