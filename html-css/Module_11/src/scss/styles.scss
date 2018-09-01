@@ -96,7 +96,7 @@ ul.menu__menu-link li {
 
 .menu__title-item:hover::after {
     content: "";
-    border: 2px solid $pseudo;
+    border: 2px solid transparent;
     width: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
