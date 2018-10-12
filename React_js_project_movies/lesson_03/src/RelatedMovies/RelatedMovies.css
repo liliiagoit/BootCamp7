@@ -1,0 +1,12 @@
+.film_img_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.similar_movie_title {
+    color: mintcream;
+    font-size: 17px;
+}

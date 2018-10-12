@@ -1,0 +1,93 @@
+.hideChat {
+    display: none;
+}
+
+.showChat{
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background-color: #4c4145;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.fa-times {
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    color: indianred;
+
+}
+
+/* .fa-times-circle {
+    position: absolute;
+    top: -10%;
+    right: 10%;
+    color: black;
+   /* display: none;  */
+/* }  */
+
+.registation_button {
+    margin-left: 145px;
+}
+
+
+.my_avatar_photo{
+    background-color: #40373a;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: wheat;
+}
+
+.my_user_img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.my_ava_span{
+    margin-right: 10px; 
+}
+
+.last_comments {
+     font-family: 'Fahkwang', sans-serif; 
+    font-size: 13px;
+}
+
+@media(min-width: 768px) {
+    .showChat {
+        position: static;
+        width: 20%;
+    }
+
+    .hideChat{
+        display: block;
+        width: 20%;
+    }
+
+    .fa-times {
+        display: none;
+    }
+
+    .my_avatar_photo{
+        background-color: #edeff0;
+        color: #40373a;
+        /* display: flex;
+        align-items: center; */
+    }
+} 
+
+@media(min-width: 768px) {
+    .showChat {
+        position: static;
+        width: 20%;
+    }
+
+    .hideChat{
+        display: block;
+        width: 20%;
+    }
+}
