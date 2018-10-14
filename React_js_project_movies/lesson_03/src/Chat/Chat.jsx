@@ -53,8 +53,8 @@ showModalWindow = (event) => {
                 <i className="fas fa-times" onClick={this.props.showChatHendler}></i>
                 {this.state.showRegistrationForm ? <Registration close={this.showModalWindow} id='showRegistrationForm'/> : null}
                 {this.state.showLogInForm ? <LogIn close={this.showModalWindow} id='showLogInForm'/> : null}
-                <button onClick={this.showModalWindow} id='showLogInForm'>Log In</button>
-                <button className='registation_button' onClick={this.showModalWindow} id='showRegistrationForm'>Registration</button>
+                <button onClick={this.showModalWindow} id='showLogInForm' className='btn_logIn'>Log In</button>
+                <button className='registation_button' onClick={this.showModalWindow} id='showRegistrationForm' className='btn_registration'>Registration</button>
             </div>
                 <h3 className='last_comments'>LAST COMMENTS</h3>
                 {/* <li className='close_li' onClick={this.showChatHendler}><i className="far fa-times-circle"></i></li> */}

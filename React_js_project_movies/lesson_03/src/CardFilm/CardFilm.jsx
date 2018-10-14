@@ -7,7 +7,7 @@ const CardFilm = ({imgFilm, id, addToFavourite, addToWishList}) => {
     // console.log(this.props);
     return(
         <div className='card_film'>
-        <img className='card_img' alt='picture' src={imgFilm !== null ? `https://image.tmdb.org/t/p/w300/${imgFilm}`: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxspU4wCNhCWkNkgXJtmPu9W11bJQnawqVFeMqeoCXq19CoX7`}/>
+        <img className='card_img' alt='picture' src={imgFilm !== null ? `https://image.tmdb.org/t/p/w300/${imgFilm}`: `https://cdn-images-1.medium.com/max/1600/1*jfgr2qQ3d8JCXpQHLnIQPg.png`}/>
         <CardHover id={id} addToFavourite={addToFavourite} addToWishList={addToWishList}/>
         </div>
     );

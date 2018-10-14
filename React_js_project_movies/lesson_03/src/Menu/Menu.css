@@ -61,6 +61,11 @@ li:hover>span {
     color: #ffffff;
 }
 
+.menu-a:hover {
+    color: #ffffff;
+
+}
+
 li:last-child {
     margin-bottom: 0;
 }

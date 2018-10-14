@@ -33,9 +33,14 @@
 
 @media (min-width: 768px){
     .fa-comments {
-        position: absolute;
+        display: none;
+        /* position: absolute;
         right: 1%;
-        top: 2%; 
+        top: 2%;  */
+    }
+
+    .fa-bars {
+        display: none;
     }
 }
 
@@ -49,8 +54,13 @@
     }
 
     .fa-comments {
-        position: absolute;
+        display: none;
+        /* position: absolute;
         right: 11%;
-        top: 4%; 
+        top: 4%;  */
+    }
+
+    .fa-bars {
+        display: none;
     }
 } 

@@ -4,6 +4,7 @@ import Loader from 'react-loader-spinner';
 // import Slider from "react-slick";
 import Coverflow from 'react-coverflow';
 import axios from 'axios';
+import {NavLink} from 'react-router-dom';
 import './ApearFilmCard.css';
 
 class ApearFilmCard extends Component {
@@ -101,7 +102,8 @@ class ApearFilmCard extends Component {
             <div className='youtube_movie'> {this.state.movie_info.trailers.length ? <iframe src={`https://www.youtube.com/embed/${this.state.movie_info.trailers[0].key}?autoplay=1`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe> : <h1>SORRY, NOT FOUND THIS TRAILER</h1>}</div>
            </div>
            <h3 className='title_related_movies'>SIMILAR MOVIES</h3>
-           <Coverflow width="900" height="500"
+           <div className='coverflow_cards'>
+           <Coverflow width="800" height="600"
     displayQuantityOfSide={1}
     navigation={true}
     enableScroll={true}
@@ -118,8 +120,9 @@ class ApearFilmCard extends Component {
     //     }
     //   }}
   >
-        {this.state.movie_info.recommendations.map(el => <RelatedMovies poster={el.poster_path} title={el.title} key={el.id}/>)}
+        {this.state.movie_info.recommendations.map(el => <NavLink to='/'> <RelatedMovies poster={el.poster_path} title={el.title} key={el.id} id={el.id} addToFavourite={this.addToFavourite} addToWishList={this.addToWishList}/></NavLink>)}
            </Coverflow>
+           </div>
             </div>
         }
         </div>

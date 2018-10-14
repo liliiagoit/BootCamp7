@@ -14,10 +14,14 @@
 
 .fa-times {
     position: absolute;
-    top: 4%;
-    right: 5%;
+    top: 2%;
+    right: -2%;
     color: indianred;
+    cursor: pointer;
+}
 
+.fa-times:hover {
+    color: #ffffff;
 }
 
 /* .fa-times-circle {
@@ -57,6 +61,22 @@
     font-size: 13px;
 }
 
+.btn_logIn, .btn_registration {
+    background-color: #d6e5e5;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.btn_logIn:hover, .btn_registration:hover {
+    color: #ffffff;
+    background-color: darkslategrey;
+    font-style: italic;
+}
+
+
 @media(min-width: 768px) {
     .showChat {
         position: static;
@@ -75,19 +95,27 @@
     .my_avatar_photo{
         background-color: #edeff0;
         color: #40373a;
+        border: 3px solid gainsboro;
+    border-radius: 2%;
         /* display: flex;
         align-items: center; */
     }
 } 
 
-@media(min-width: 768px) {
+@media(min-width: 1280px){
     .showChat {
         position: static;
         width: 20%;
+        background-color: #4c4145;
+        box-sizing: border-box;
+        padding: 20px;
     }
 
     .hideChat{
-        display: block;
+        position: static;
         width: 20%;
+        background-color: #4c4145;
+        box-sizing: border-box;
+        padding: 20px;
     }
 }

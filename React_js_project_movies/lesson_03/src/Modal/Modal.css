@@ -1,8 +1,8 @@
 .modal {
     max-width: 400px;
     padding: 30px;
-    background-color: aquamarine;
-    box-shadow: 0 0 5px 0 indianred;
+    background-color: #55928c;
+    box-shadow: 0 0 9px 0 indianred;
     border-radius: 5px;
     position: fixed;
     top: 50%;
@@ -12,8 +12,12 @@
 
 .close {
     position: absolute;
-    top: 0;
-    right: 5px;
+    top: 2%;
+    right: 8px;
     font-weight: 700;
     cursor: pointer;
+}
+
+.close:hover {
+    color: #ffffff;
 }

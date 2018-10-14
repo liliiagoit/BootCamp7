@@ -85,6 +85,11 @@ body {
     margin-bottom: 0;
 }
 
+/* .coverflow_cards {
+    /* width: 200px; */
+    /* height: 100px; */
+/* }  */
+
 @media(min-width: 1280px) {
 /* .mainly_div {
     max-height: 150vh;

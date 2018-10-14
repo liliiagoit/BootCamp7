@@ -6,10 +6,10 @@ const Registration = ({close, id}) => {
     return(
         <Modal close={close} id={id}>
        <form>
-           <input type='email' placeholder='email'/>
-           <input type='password' placeholder='password'/>
-           <input type='password' placeholder='password'/>
-           <input type='submit' value='save'/>
+           <input type='email' placeholder='email' className='input_email'/>
+           <input type='password' placeholder='password' className='input_password'/>
+           <input type='password' placeholder='password' className='input_password'/>
+           <input type='submit' value='Save' className='input_submit'/>
        </form>
         </Modal>
     )
