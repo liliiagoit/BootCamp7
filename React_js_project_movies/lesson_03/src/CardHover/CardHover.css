@@ -27,7 +27,7 @@
     /* height: 50px;
     width: 50px; */
     /* margin-bottom: 10px; */
-    font-size: 30px;
+    font-size: 25px;
     background-color: transparent;
     color: #ffffff;
     /* border: 2px solid #ffffff; */
@@ -52,16 +52,16 @@
     .cover-button{
         width: 220px;
         position: absolute;
-        top: 45%;
+        top: 43%;
         left: 8%;
     }
 }
 
-@media(min-width: 1200px){
+@media(min-width: 1280px){
     .cover-button{
         width: 220px;
         position: absolute;
-        top: 45%;
-        left: 3%;
+        top: 43%;
+        left: 2%;
     }
 }

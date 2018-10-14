@@ -45,42 +45,15 @@ class ApearFilmCard extends Component {
     }
 
     render() {
-        // const settings = {
-        //     dots: true,
-        //     infinite: true,
-        //     speed: 500,
-        //     slidesToShow: 2,
-        //     slidesToScroll: 1,
-        //     // initialSlide: 0,
-        //     responsive: [
-    
-        //       {
-        //         breakpoint: 768,
-        //         settings: {
-        //           slidesToShow: 1,
-        //           slidesToScroll: 1,
-        //         //   initialSlide: 2
-        //         }
-        //       },
-        //       {
-        //         breakpoint: 480,
-        //         settings: {
-        //           slidesToShow: 1,
-        //           slidesToScroll: 1
-        //         }
-        //       }
-        //     ]
-        // }
-    // console.log(this.props);
 
     return (
    <div className='mainly_div'>
-        {this.state.isLoading ?  <div className='loader'><Loader 
+        {this.state.isLoading ? <Loader
             type="Plane"
             color="#00BFFF"
             height="100"	
             width="100"
-         /></div>   :
+         />  :
             <div className='apear_film_card'>
             <div className='film_background' style={{backgroundImage:`linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("https://image.tmdb.org/t/p/w300${this.state.movie_info.backdrop_path}")`}}>
                 <img src={`https://image.tmdb.org/t/p/w300${this.state.movie_info.poster_path}`} alt='film' className='img_about_film'/>
@@ -110,9 +83,9 @@ class ApearFilmCard extends Component {
     clickable={true}
     active={0}
     // media={{
-    //     '@media (max-width: 768px)': {
+    //     '@media (min-width: 320px)': {
     //       width: '600px',
-    //       height: '300px'
+    //       height: '400px'
     //     },
     //     '@media (min-width: 900px)': {
     //       width: '960px',

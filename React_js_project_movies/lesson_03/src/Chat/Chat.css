@@ -16,7 +16,7 @@
     position: absolute;
     top: 2%;
     right: -2%;
-    color: indianred;
+    color: #DA4D83;
     cursor: pointer;
 }
 
@@ -38,11 +38,16 @@
 
 
 .my_avatar_photo{
-    background-color: #40373a;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    /* background-color: #40373a; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    color: wheat;
+    /* color: wheat; */
+     color: #40373a;
+        border: 3px solid #21447A;
+        border-radius: 5%; 
+
 }
 
 .my_user_img{
@@ -62,12 +67,13 @@
 }
 
 .btn_logIn, .btn_registration {
-    background-color: #d6e5e5;
+    background-color: #D8F0A3;
     font-size: 15px;
     font-family: "Roboto", sans-serif;
-    border-radius: 10%;
+    border-radius: 5%;
     cursor: pointer;
     margin-left: auto;
+    transition: 2s;
 }
 
 .btn_logIn:hover, .btn_registration:hover {
@@ -92,14 +98,14 @@
         display: none;
     }
 
-    .my_avatar_photo{
-        background-color: #edeff0;
-        color: #40373a;
-        border: 3px solid gainsboro;
-    border-radius: 2%;
+    /* .my_avatar_photo{ */
+        /* background-color: #edeff0; */
+        /* color: #40373a;
+        border: 3px solid #21447A;
+        border-radius: 5%; */
         /* display: flex;
         align-items: center; */
-    }
+    /* } */
 } 
 
 @media(min-width: 1280px){

@@ -10,6 +10,7 @@ import Favourite from '../Favourite/Favourite';
 import './Main.css';
 import ApearFilmCard from '../ApearFilmCard/ApearFilmCard';
 import RelatedMovies from '../RelatedMovies/RelatedMovies';
+import Popular from '../Popular/Popular';
 
 
 
@@ -22,6 +23,7 @@ const Main = ({showMenuHendler, showChatHendler, addToFavourite, addToWishList, 
                     <Route path='/comingsoon' render={props => <PlaySoon addToFavourite={addToFavourite} addToWishList={addToWishList}/>}/>
                     <Route path='/wishlist' render={props => <WishList addToWishList={removeFromWishList}/>}/>
                     <Route path='/favourite' render={props => <Favourite addToFavourite={removeFromFavourite}/>}/>
+                    <Route path='/popular' render={props => <Popular addToFavourite={addToFavourite} addToWishList={addToWishList}/>}/>
                     {/* <Route path='/favourite' component={Favourite} addToFavourite={removeFromFavourite}/> */}
                     <Route path='/cardfilm/:id' component={ApearFilmCard}/>
                     {/* <Route path='/similarMovie/:id' component={RelatedMovies}/> */}

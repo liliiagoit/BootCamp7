@@ -18,9 +18,9 @@ body {
     /* transform: translate(-50%,-50%);  */
  } 
 
-.loader{
+/* .loader{
     position: relative;
-}
+} */
 
 .img_about_film {
     width: 160px;
@@ -94,7 +94,9 @@ body {
 /* .mainly_div {
     max-height: 150vh;
 } */
-
+.info_film{
+    left: 10%;
+}
 
     .information_film {
         display: flex;
@@ -145,5 +147,11 @@ body {
     margin: 40px;
     margin-right: 0;
 }
+
+/* .loader {
+    margin-left: 400px;
+    /* position: absolute;
+    transform: translate(-50%,-50%); */
+/* /* }   */
 
 }

@@ -33,7 +33,8 @@ deleteFavouriteList = (event) => {
     render(){
         return(
             <div>
-     {this.state.isLoading ? <Loader 
+     {this.state.isLoading ? <Loader className='loader'
+            margin='300'
             type="Plane"
             color="#00BFFF"
             height="100"	
