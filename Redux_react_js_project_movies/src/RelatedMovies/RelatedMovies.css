@@ -1,0 +1,19 @@
+/* .film_img_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+} */
+
+.recommend {
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+    display: block;
+  }
+
+.similar_movie_title {
+    color: mintcream;
+    font-size: 17px;
+}
