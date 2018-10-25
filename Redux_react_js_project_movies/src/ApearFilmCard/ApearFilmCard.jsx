@@ -55,14 +55,14 @@ class ApearFilmCard extends Component {
 
     return (
    <div className='mainly_div'>
-        {this.props.isLoading ? <h1>Hell</h1>
+        {this.props.isLoading ? 
 
-        // || this.props.loadingEnd ? <Loader
-        //     type="Plane"
-        //     color="#00BFFF"
-        //     height="100"	
-        //     width="100"
-        //  />  
+        <Loader
+            type="Plane"
+            color="#00BFFF"
+            height="100"	
+            width="100"
+         />  
          :
 
             <div className='apear_film_card'>

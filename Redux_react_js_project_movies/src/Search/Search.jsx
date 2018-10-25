@@ -17,9 +17,9 @@ const Search = ({showMenuHendler, showChatHendler, changeInput, inputSearchValue
         <i className="fas fa-bars" onClick={showMenuHendler}></i>
         <i className="far fa-comments" onClick={showChatHendler}></i>
         <i className="fas fa-search"></i>
-        {inputSearchValue.length ? <SearchFilmList/> : null}
         </form>
         </label>
+        {inputSearchValue.length ? <SearchFilmList/> : null}
         </div>
     );
 };

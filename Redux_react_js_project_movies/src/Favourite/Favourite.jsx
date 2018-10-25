@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import { deleteFromFavouriteList, getFavouriteList} from '../redux/actions/favouriteAction';
+import {sortFavouriteList} from '../redux/selectors/menuSelector';
 import Grid from '../Grid/Grid';
 import Loader from 'react-loader-spinner';
 import './Favourite.css';
@@ -55,7 +56,7 @@ componentDidMount() {
 
 function mapStateToProps(state){
     return {
-        favouriteList: state.showFavouriteList,
+        favouriteList: sortFavouriteList(state),
     }
 }
 

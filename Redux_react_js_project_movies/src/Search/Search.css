@@ -51,7 +51,7 @@
     }
 
     .input_main {
-        width: 80%;
+        width: 95%;
         padding: 4px;
         text-indent: 8px;
         font-style: italic;
@@ -59,7 +59,7 @@
 
     .fa-search{
         position: absolute;
-        right: 18%;
+        right: 2%;
         top: 5px; 
         cursor: pointer;
         color: #6d535d;
@@ -81,7 +81,7 @@
 
     .fa-search{
         position: absolute;
-        right: 20%;
+        right: 14%;
         top: 5px; 
         cursor: pointer;
         color: #6d535d;
@@ -93,5 +93,6 @@
         padding: 4px;
         text-indent: 8px;
         font-style: italic;
+        margin-left: 42px;
     }
 } 

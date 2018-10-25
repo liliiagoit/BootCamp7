@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import {useLoading} from '../redux/actions/isLoadingAction';
 // import {addToWishList, deleteFromWishList, openWishList} from '../redux/actions/wishListAction';
 import {deleteFromWishList, openWishList} from '../redux/actions/wishListAction';
+import {sortWishList} from '../redux/selectors/menuSelector';
 import Grid from '../Grid/Grid';
 import Loader from 'react-loader-spinner';
 import './WishList.css';
@@ -58,7 +59,7 @@ componentDidMount (event) {
 
 function mapStateToProps(state){
     return{
-        wishList: state.showWishList,
+        wishList: sortWishList(state),
         isLoading: state.showIsLoading
     }
 }

@@ -6,7 +6,7 @@ import './SearchFilmList.css';
 const SearchFilmList = ({getInputValueReducer}) => {
     return (
         <div>
-        <ul>
+        <ul className='search_movie_container'>
             {getInputValueReducer.map(el => <SearchFilmCard imgFilm={el.poster_path} key={el.id} id={el.id} title={el.title}/>)}
         </ul>
         </div>

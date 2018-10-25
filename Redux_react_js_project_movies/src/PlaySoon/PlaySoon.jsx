@@ -6,6 +6,7 @@ import { soonPlayingAsync } from '../redux/actions/playSoonAction';
 import {showWishListAsync} from '../redux/actions/wishListAction';
 import {showFavouriteListAsync} from '../redux/actions/favouriteAction';
 import {useLoading} from '../redux/actions/isLoadingAction';
+import {sortPlaySoon} from '../redux/selectors/menuSelector';
 import './PlaySoon.css';
 
 class PlaySoon extends Component {
@@ -27,6 +28,7 @@ class PlaySoon extends Component {
     }
 
     render(){
+        // console.log(playingSoon)
         return(
             <div>
             {this.props.isLoading ? <Loader 
@@ -44,7 +46,7 @@ class PlaySoon extends Component {
 
 function mapStateToProps(state){
     return {
-        playingSoon: state.showPlaySoon,
+        playingSoon: sortPlaySoon(state),
         isLoading: state.showIsLoading,
     }
 }

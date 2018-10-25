@@ -6,6 +6,7 @@ import { popularPlayingAsync } from '../redux/actions/showPopularAction';
 import {showWishListAsync} from '../redux/actions/wishListAction';
 import {showFavouriteListAsync} from '../redux/actions/favouriteAction';
 import {useLoading} from '../redux/actions/isLoadingAction';
+import {sortPopular} from '../redux/selectors/menuSelector';
 import './Popular.css';
 
 
@@ -45,7 +46,7 @@ class Popular extends Component {
 
 function mapStateToProps(state) {
     return{
-        popularNow: state.showPopular,
+        popularNow: sortPopular(state),
         isLoading: state.showIsLoading
     }
 }
