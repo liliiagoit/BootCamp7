@@ -30,7 +30,10 @@ class Menu extends Component
         <li className='menu-li'><i className="fab fa-rocketchat"></i><a href='#' className='menu-a'>ChatList</a><span className='menu-span'>0</span></li>
         <li className='close_li' onClick={this.props.showMenuHendler}><i className="far fa-times-circle"></i></li>
     </ul>
-    {/* {this.props.showTopRatedMovie.map(el => <TopRated  imgFilm={el.poster_path} key={el.id} id={el.id} title={el.title}/>)} */}
+    <h2 className='top_movie_title'>TOP RATED</h2>
+    <div className='movies_top_rated'>
+    {this.props.showTopRatedMovie.map(el => <TopRated imgFilm={el.poster_path} key={el.id} id={el.id} title={el.title} vote_average={el.vote_average}/>)}
+    </div>
 </div>
     );
 }
@@ -57,6 +60,7 @@ showMenuHendler: PropTypes.func,
             playPopularLength: playPopularLength(state),
             playFavouriteLength: playFavouriteLength(state),
             playWishListLength: playWishListLength(state),
+            // sortTopRated: sortTopRated(state),
         }
     }
 

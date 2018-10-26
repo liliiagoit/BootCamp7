@@ -1,11 +1,16 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 import './TopRated.css';
 
-const TopRated = ({imgFilm, title}) => {
+const TopRated = ({imgFilm, title, vote_average, id}) => {
     return(
-        <div>
-            <img src={imgFilm !== null ? `https://image.tmdb.org/t/p/w300/${imgFilm}`: `https://cdn-images-1.medium.com/max/1600/1*jfgr2qQ3d8JCXpQHLnIQPg.png`} alt='top_pic'/>
-            <span>{title}</span>
+        <div className='top_rated_movies'>
+         <NavLink to={`/cardfilm/${id}`}>
+            <img className='top_rated_images' src={imgFilm !== null ? `https://image.tmdb.org/t/p/w300/${imgFilm}`: `https://cdn-images-1.medium.com/max/1600/1*jfgr2qQ3d8JCXpQHLnIQPg.png`} alt='top_pic'/>
+            </NavLink>
+            <h5 className='title_top_rated'>{title}</h5>
+            <i class="fas fa-star-half-alt"></i>
+            <h5 className='title_top_popularity'>{vote_average}</h5>
         </div>
     )
 }

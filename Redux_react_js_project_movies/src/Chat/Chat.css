@@ -93,6 +93,9 @@
     .hideChat{
         display: block;
         width: 20%;
+         overflow-y: scroll;
+         height: calc(100vh + 10px);
+        padding: 10px; 
     }
 
     .fa-times {
@@ -124,5 +127,7 @@
         background-color: #4c4145;
         box-sizing: border-box;
         padding: 20px;
+        overflow-y: scroll;
+        height: calc(100vh + 10px);
     }
 }
