@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import CardHover from '../CardHover/CardHover';
 import{NavLink} from 'react-router-dom';
 // import Slider from "react-slick";
@@ -15,6 +16,11 @@ const RelatedMovies = ({poster, id, addToFavourite, addToWishList}) => {
         {/* <CardHover id={id} addToFavourite={addToFavourite} addToWishList={addToWishList}/> */}
         </div>    
     )
+}
+
+RelatedMovies.propTypes = {
+    poster: PropTypes.string,
+    id: PropTypes.number,
 }
 
 export default RelatedMovies;

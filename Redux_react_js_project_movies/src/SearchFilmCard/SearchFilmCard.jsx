@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'; 
 import {NavLink} from 'react-router-dom';
 import './SearchFilmCard.css';
 
@@ -11,6 +12,12 @@ const SearchFilmCard = ({imgFilm, title, id}) => {
             <h5 className='title_search_movie'>{title}</h5>
         </li>
     )
+}
+
+SearchFilmCard.propTypes = {
+    imgFilm: PropTypes.string,
+    title: PropTypes.string,
+    id: PropTypes.number,
 }
 
 export default SearchFilmCard;

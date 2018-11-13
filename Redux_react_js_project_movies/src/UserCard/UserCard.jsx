@@ -15,7 +15,7 @@ const UserCard = ({name, message, link, image}) => {
 };
 
 
-UserCard.prototypes = {
+UserCard.propTypes = {
     name: PropTypes.string,
     message: PropTypes.string,
     link: PropTypes.string,

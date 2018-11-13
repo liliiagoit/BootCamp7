@@ -1,5 +1,5 @@
 {
-  "name": "lesson_03",
+  "name": "movie_project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,11 +15,11 @@
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
-    "react-slick": "^0.23.1",
     "redux": "^4.0.1",
     "redux-router": "^2.1.2",
     "redux-thunk": "^2.3.0"
   },
+ 
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

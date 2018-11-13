@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import axios from 'axios';
 import Menu from './Menu/Menu';
 import Main from './Main/Main.jsx';
@@ -107,6 +108,13 @@ state = {
    {/* <ApearFilmCard/> */}
  </div>
     )}
+}
+
+App.propTypes = {
+  addToFavourite: PropTypes.func,
+  addToWishList: PropTypes.func,
+  removeFromFavourite: PropTypes.func,
+  removeFromWishList: PropTypes.func,
 }
 
 export default App;

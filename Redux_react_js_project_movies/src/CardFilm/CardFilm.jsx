@@ -13,9 +13,9 @@ const CardFilm = ({imgFilm, id, addToFavourite, addToWishList}) => {
     );
 };
 
-CardFilm.prototypes = {
+CardFilm.propTypes = {
     imgFilm: PropTypes.string,
-    id: PropTypes.string,
+    id: PropTypes.number,
     addToFavourite: PropTypes.func,
     addToWishList: PropTypes.func,
 }

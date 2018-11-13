@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import {useLoading} from '../redux/actions/isLoadingAction';
 // import {addToWishList, deleteFromWishList, openWishList} from '../redux/actions/wishListAction';
@@ -76,6 +77,11 @@ function mapDispatchToProps(dispatch){
         dispatch(openWishList())
     }
 }
+}
+
+WishList.propTypes = {
+    wishList: PropTypes.array,
+    isLoading: PropTypes.bool,
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(WishList);

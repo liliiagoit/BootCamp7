@@ -16,7 +16,7 @@ import Popular from '../Popular/Popular';
 
 
 
-const Main = ({showMenuHendler, showChatHendler, addToFavourite, addToWishList, removeFromFavourite, removeFromWishList}) => {
+const Main = ({addToFavourite, addToWishList, removeFromFavourite, removeFromWishList}) => {
         return(
             <div className='main_div'>
                 <Search/>
@@ -34,15 +34,19 @@ const Main = ({showMenuHendler, showChatHendler, addToFavourite, addToWishList, 
                 </ConnectedRouter>
                 {/* <Grid/> */}
             </div>
+
         )
     
 }
 
+
+
 Main.propTypes = {
-    showMenuHendler: PropTypes.func,
-    showChatHendler: PropTypes.func,
+    removeFromFavourite: PropTypes.func,
+    removeFromWishList: PropTypes.func,
     addToFavourite: PropTypes.func,
     addToWishList: PropTypes.func,
+    props: PropTypes.array,
 };
 
 export default Main;

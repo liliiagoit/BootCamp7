@@ -59,7 +59,7 @@
     }
 
     .hover_icon {
-        font-size: 30px;
+        font-size: 27px;
     }
 
 }
@@ -69,7 +69,7 @@
         width: 100%;
         position: absolute;
         top: 43%;
-        left: 2%;
+        /* left: 2%; */
     }
 
     .hover_icon {

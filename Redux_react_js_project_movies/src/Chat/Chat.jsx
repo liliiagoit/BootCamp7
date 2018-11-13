@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import UserMessage from '../UserMessage/UserMessage';
 import Registration from '../Registration/Registration';
 import {showChat} from '../redux/actions/showChatAction';
@@ -20,6 +21,7 @@ class Chat extends Component {
         name: "Marry Jain",
         message: 'Anything that can be rendered: numbers, strings, elements or an array or fragment)containing these types.',
         link: 'Your facebook friend',
+        id: 324,
     },
 
     {
@@ -27,6 +29,7 @@ class Chat extends Component {
         name: "Kate Middle",
         message: 'Anything that can be rendered: numbers, strings, elements or an array or fragment)containing these types.',
         link: 'Your facebook friend',
+        id: 326,
     },
 
     {
@@ -34,6 +37,7 @@ class Chat extends Component {
         name: "Visual Bro",
         message: 'Anything that can be rendered: numbers, strings, elements or an array or fragment)containing these types.',
         link: 'Your facebook friend',
+        id: 320,
     }
  ]
 
@@ -76,7 +80,10 @@ function mapStateToProps(state) {
         showLogInForm: state.showLogInForm,
         showRegistrationForm: state.showRegistrationForm,
     }
+    
 }
+
+
 
 function mapDispatchToProps(dispatch){
     return {
@@ -90,6 +97,18 @@ function mapDispatchToProps(dispatch){
             dispatch(openRegistration())
         }
     }
+}
+
+Chat.propTypes = {
+    showChat: PropTypes.bool,
+    showLogInForm: PropTypes.bool,
+    showRegistrationForm: PropTypes.bool,
+    users: PropTypes.array,
+    image: PropTypes.string,
+    name: PropTypes.string,
+    message: PropTypes.string,
+    link: PropTypes.string,
+    id: PropTypes.number,
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Chat);

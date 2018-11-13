@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { useLoading } from '../actions/isLoadingAction';
+// import { useLoading } from '../actions/isLoadingAction';
 
 
 export const getSimilarWords = result => ({
@@ -16,7 +16,7 @@ function fetchGetSimilarWords(value) {
 export const getInputValueFetchAsync = (value) => dispatch => {
     fetchGetSimilarWords(value)
     .then(result => dispatch(getSimilarWords(result.data.results)))
-    .then(data => dispatch(useLoading()))
+    // .then(data => dispatch(useLoading()))
     
     .catch(error => console.log(error))
 }

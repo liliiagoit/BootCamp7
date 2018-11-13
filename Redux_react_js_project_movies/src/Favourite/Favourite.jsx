@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { deleteFromFavouriteList, getFavouriteList} from '../redux/actions/favouriteAction';
 import {sortFavouriteList} from '../redux/selectors/menuSelector';
@@ -69,6 +70,10 @@ function mapDispatchToProps(dispatch){
             dispatch(getFavouriteList())
         }
     }
+}
+
+Favourite.propTypes = {
+    favouriteList: PropTypes.array,
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Favourite);

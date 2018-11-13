@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import SearchFilmCard from '../SearchFilmCard/SearchFilmCard';
 import {connect} from 'react-redux';
 import './SearchFilmList.css';
@@ -17,6 +18,10 @@ function mapStateToProps(state){
     return {
         getInputValueReducer: state.getInputValueReducer,
     }
+}
+
+SearchFilmList.PropTypes = {
+    getInputValueReducer: PropTypes.array,
 }
 
 export default connect(mapStateToProps, null)(SearchFilmList);

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Grid from "../Grid/Grid";
 import Loader from 'react-loader-spinner';
@@ -31,7 +32,7 @@ componentDidMount(){
 }
 
     render(){
-        console.log(this.props.playingMovies)
+        // console.log(this.props.playingMovies)
         return(
             <div>
              {this.props.isLoading ? <Loader 
@@ -71,4 +72,8 @@ function mapDispatchToProps(dispatch) {
     }
 }
 
+PlayNow.propTypes = {
+    playingMovies: PropTypes.array,
+    isLoading: PropTypes.bool,
+}
 export default connect (mapStateToProps, mapDispatchToProps)(PlayNow);

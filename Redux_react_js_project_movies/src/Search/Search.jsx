@@ -8,7 +8,7 @@ import {getSimilarWords, getInputValueFetchAsync} from '../redux/actions/getInpu
 import SearchFilmList from '../SearchFilmList/SearchFilmList';
 import './Search.css';
 
-const Search = ({showMenuHendler, showChatHendler, changeInput, inputSearchValue, getSimilarWords, getInputValueFetchAsync}) => {
+const Search = ({showMenuHendler, showChatHendler, changeInput, inputSearchValue, getInputValueFetchAsync}) => {
     return(
         <div className='div_main'>
         <label className='label_search'>
@@ -24,10 +24,7 @@ const Search = ({showMenuHendler, showChatHendler, changeInput, inputSearchValue
     );
 };
 
-Search.propTypes = {
-    showMenuHendler: PropTypes.func,
-    showChatHendler: PropTypes.func,
-};
+
 
 
 function mapStateToProps(state) {
@@ -55,5 +52,11 @@ function mapDispatchToProps(dispatch){
         }
     }
 }
+
+Search.propTypes = {
+    inputSearchValue: PropTypes.string,
+    // showMenuHendler: PropTypes.func,
+    // showChatHendler: PropTypes.func,
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(Search);

@@ -23,6 +23,11 @@
     margin: 0;
 }
 
+.logo_link {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
 .menu-a {
     text-decoration: none;
     color: #b4b1b2;

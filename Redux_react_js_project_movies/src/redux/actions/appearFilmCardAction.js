@@ -18,7 +18,7 @@ function fetchAppearFilmCard(id) {
 
 
 export const appearCardFilmAsync = (id) => dispatch => {
-  dispatch(useLoadingEnd());
+  // dispatch(useLoadingEnd())
     fetchAppearFilmCard(id)
       .then(data => {
         let [info,video, similar] = data;
@@ -32,7 +32,7 @@ export const appearCardFilmAsync = (id) => dispatch => {
       }
       dispatch(getFilmCard(fullInfo))
     })
-    .then(data => dispatch(useLoading()))
+    // .then(data => dispatch(useLoading()))
     .then(data => dispatch(clearInput()))
     .catch(error => console.log(error))
       }    

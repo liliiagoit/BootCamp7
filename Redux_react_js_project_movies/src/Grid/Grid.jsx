@@ -10,12 +10,14 @@ import './Grid.css';
 const Grid = ({prop, addToFavourite, addToWishList}) => {
     return(
         <div className='div_grid'>
-        {prop===null ? <Loader 
+        {
+            prop===null ? <Loader 
             type="Plane"
             color="#00BFFF"
             height="100"	
             width="100"
-         /> : prop.map(el => <CardFilm imgFilm={el.poster_path} key={el.id} id={el.id} addToFavourite={addToFavourite} addToWishList={addToWishList}/>)}
+         /> : 
+         prop.map(el => <CardFilm imgFilm={el.poster_path} key={el.id} id={el.id} addToFavourite={addToFavourite} addToWishList={addToWishList}/>)}
        {/* <ApearFilmCard/> */}
         </div>
     );

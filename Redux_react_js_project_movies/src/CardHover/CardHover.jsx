@@ -7,17 +7,19 @@ const CardHover = ({id, addToFavourite, addToWishList}) => {
     return(
         <div className='div_appear_hover'>
         <div className='cover-button'>
-        <button className='button_icon'><a href='#'><i className="far fa-heart hover_icon" data-movieid={id} onClick={addToFavourite}></i></a></button>
-        <button className='button_icon'><a href='#'><i className="fas fa-th-list hover_icon" data-movieid={id} onClick={addToWishList}></i></a></button>
-        <button className='button_icon'><a href='#'><i className="fab fa-rocketchat hover_icon"></i></a></button>
-        <button className='button_icon'><a href='#'><NavLink to={`/cardfilm/${id}`}><i className="far fa-caret-square-right hover_icon"></i></NavLink></a></button>
+        <button className='button_icon'><i className="far fa-heart hover_icon" data-movieid={id} onClick={addToFavourite} title='add to favourite'></i></button>
+        <button className='button_icon'><i className="fas fa-th-list hover_icon" data-movieid={id} onClick={addToWishList} title='add to wishlist'></i></button>
+        <button className='button_icon'><i className="fab fa-rocketchat hover_icon" title='go to chat'></i></button>
+        <button className='button_icon'><NavLink to={`/cardfilm/${id}`}><i className="far fa-caret-square-right hover_icon" title='go to movie'></i></NavLink></button>
+        
+        {/* <button className='button_icon'><a href='#' title='open this movie'><NavLink to={`/cardfilm/${id}`}><i className="far fa-caret-square-right hover_icon"></i></NavLink></a></button> */}
         </div>
         </div>
     );
 };
 
 CardHover.propTypes = {
-    id: PropTypes.string,
+    id: PropTypes.number,
     addToFavourite: PropTypes.func,
     addToWishList: PropTypes.func,
 }
