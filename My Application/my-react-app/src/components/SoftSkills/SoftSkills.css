@@ -1,0 +1,104 @@
+.soft_skills_block {
+    width: 100%;
+    background: #242425;
+    padding-bottom: 50px;
+    margin-top: 25px;
+}
+
+.soft_skills_title {
+    color: #a9a9a9;
+    opacity: 0.3;
+    font-size: 40px;
+    display: block;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.my_skills {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+}
+
+.title_skill_span {
+    color: #5ac24e;
+}
+
+.soft_skills_container {
+    position: relative;
+    text-align: center;
+    min-height: 130px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    width: 235px;
+    margin: auto;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.soft_skills_container:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+
+.soft_skill_title {
+    color: bisque;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.soft_skill_title:hover {
+    text-shadow: 2px 2px mediumblue;
+    cursor: pointer;
+}
+
+@media(min-width: 480px){
+    .soft_skills_title {
+        padding-left: 70px;
+    }
+}
+
+@media(min-width: 768px) {
+    .soft_skills_container {
+        position: relative;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+        border-radius: 18px;
+        width: 80%;
+        margin: auto;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 30px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 37vh;
+    }
+    
+    .my_skills {
+        margin-bottom: 30px;
+    }
+
+    .soft_skill_title {
+        padding-right: 12px;
+    }
+}
+
+@media(min-width: 1280px){
+    .soft_skill_title {
+        padding-right: 12px;
+        left: 35%;
+    }
+
+    .soft_skills_container {
+        height: 35vh;
+    }
+
+}

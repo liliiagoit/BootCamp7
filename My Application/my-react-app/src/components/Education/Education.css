@@ -1,0 +1,106 @@
+.education_block {
+    width: 100%;
+    background: #242425;
+    padding-bottom: 50px;
+    margin-top: 25px;
+}
+
+.education_title {
+    color: #a9a9a9;
+    opacity: 0.3;
+    font-size: 40px;
+    display: block;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.my_education {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+}
+
+.title_span {
+    color: #5ac24e;
+}
+
+.education_container {
+    position: relative;
+    text-align: center;
+    min-height: 130px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    width: 235px;
+    margin: auto;
+}
+
+.education_container:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+
+.title_education {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.data_title {
+    font-size: 12px;
+    line-height: 12px;
+    color: #777777;
+    font-weight: 400;
+}
+
+.degree_item {
+    font-size: 14px;
+    line-height: 12px;
+    color: #777777;
+    font-weight: 400;
+}
+
+.title_institution {
+    font-size: 14px;
+    color: #777777;
+    font-weight: 400;
+}
+
+@media(min-width: 480px){
+    .education_title {
+    padding-left: 70px;
+    }
+}
+
+@media(min-width: 768px) {
+    .education_title {
+        padding-left: 142px;
+    }
+}
+
+@media(min-width: 1280px) {
+
+.education_content {
+    display: flex;
+}
+.education_title {
+    font-size: 45px;
+    top: 18%;
+    left: 28%;
+}
+
+.my_education {
+    margin-bottom: 30px;
+}
+
+.soft_skills_title {
+    padding-left: 100px;
+}
+}
+
+

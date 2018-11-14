@@ -1,0 +1,62 @@
+.objectives_block {
+    width: 100%;
+    background: #242425;
+    padding-bottom: 50px;
+    margin-top: 25px;
+}
+
+.objectives_container {
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    width: 85%;
+    margin: auto;
+}
+
+.objectives_container:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+
+.objectives_title {
+    color: #a9a9a9;
+    opacity: 0.3;
+    font-size: 40px;
+    display: block;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.my_objectives {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+}
+
+.objectives_text {
+    color: beige;
+    font-size: 14px;
+    text-align: justify;
+    padding: 9px;
+}
+
+@media(min-width: 480px){
+    .objectives_title {
+        padding-left: 70px;
+        }
+}
+
+@media(min-width: 1280px) {
+    .objectives_container {
+        width: 65%;
+    }
+
+    .objectives_title {
+        padding-left: 226px;
+    }
+}

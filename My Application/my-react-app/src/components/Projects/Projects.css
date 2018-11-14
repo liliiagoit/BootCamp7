@@ -1,0 +1,85 @@
+.project_block {
+    width: 100%;
+    background: #242425;
+    padding-bottom: 50px;
+    margin-top: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+.project_title {
+    color: #a9a9a9;
+    opacity: 0.3;
+    font-size: 40px;
+    display: block;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.own_projects {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+}
+
+.title_span {
+    color: #5ac24e;
+}
+
+.project_container {
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    width: 165px;
+    margin: auto;
+    width: 60%;
+}
+
+.project_container:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+
+.title_skills {
+    color: bisque;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.link_icon {
+    font-size: 25px;
+    display: block;
+    margin-top: 12px;
+}
+
+.joint_project_title {
+    font-size: 11px;
+    opacity: 0.7;
+    margin: 0;
+    padding: 3px;
+}
+
+@media(min-width: 480px){
+    .project_title {
+        padding-left: 70px;
+    }
+}
+
+@media(min-width: 768px){
+    .project_title {
+        padding-left: 142px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .project_title {
+        padding-left: 250px;
+}
+}

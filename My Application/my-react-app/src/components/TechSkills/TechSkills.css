@@ -1,0 +1,115 @@
+.techSkills_container {
+    width: 100%;
+    background: #242425;
+    padding-bottom: 50px;
+    margin-top: 25px;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.resume_title {
+    color: #a9a9a9;
+    opacity: 0.3;
+    font-size: 40px;
+    display: block;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.my_tech_skills {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+}
+
+.skills_content {
+    position: relative;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    margin: 17px;
+}
+
+.skills_content:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+
+#svg_img {
+     fill: #a9a9a9;
+     margin-left: 15px;
+}
+
+#svg_img:hover {
+    fill: #ffffff;
+}
+
+.tech_skills_title {
+    color: #a9a9a9;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 2;
+}
+
+.tech_skills_title:hover {
+    color: #5ac24e;
+}
+
+.fab {
+    text-align: right;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.tech_skills_list {
+    margin: 0;
+}
+
+@media(min-width: 480px) {
+    .tech_skills_list {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: navajowhite;
+        list-style: none;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .resume_title {
+        padding-left: 70px;
+    }
+
+    .tech_skills_title {
+        color: #a9a9a9;
+        font-weight: 500;
+        cursor: pointer;
+        line-height: 3;
+        flex-basis: 32%
+        }
+        
+    }
+
+    .social_list {
+        margin-left: 200px;
+    }
+
+@media(min-width: 768px) {
+    .skills_content {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1280px){
+.resume_title {
+    padding-left: 162px;
+}
+}

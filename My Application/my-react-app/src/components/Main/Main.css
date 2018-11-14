@@ -1,0 +1,158 @@
+body {
+    background-image: url(https://images.pexels.com/photos/1110489/pexels-photo-1110489.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    min-height: 100vh; 
+} 
+
+.main_content_title p {
+    font-size: 46px;
+    color: #6e9c6e;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 3px 2px #181818;
+    font-family: initial;
+}
+
+.title_name {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  z-index: -30;
+}
+
+.title_surname {
+  position: absolute;
+  top: 25%;
+  left: 28%;
+  z-index: -30;
+}
+
+@-webkit-keyframes slideInRight {
+    from {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+.title_developer {
+    z-index: -30;
+    font-size: 12px;
+    color: #ffffff;
+    position: absolute; 
+    top: 50%;
+    left: 22%; 
+    -webkit-animation: slideInRight 6s infinite; /* Safari 4.0 - 8.0 */
+    animation: slideInRight 6s infinite;
+}
+
+.title_developer_bold {
+    font-weight: bold;
+    z-index: -30;
+}
+
+.created_title {
+  position: absolute;
+  bottom: 0%;
+  left: 22%;
+  color: currentColor;
+  opacity: 0.8;
+  font-size: 12px;
+  z-index: -30;
+}
+
+@media(min-width: 480px) {
+  .created_title {
+    left: 32%;
+  }
+
+  .title_developer {
+    font-size: 15px;
+  }
+
+  .social_list {
+   margin-left: 225px;
+  }
+
+  .title_name {
+    top: 15%;
+    left: 40%;
+  }
+  
+  .title_surname {
+    top: 25%;
+    left: 35%;
+  }
+}
+
+
+@media(min-width: 768px) {
+  .created_title {
+    left: 36%;
+    font-size: 15px;
+    opacity: 0.7;
+  }
+
+  .title_developer {
+    font-size: 18px;
+  }
+
+  .social_list {
+    width: 175px;
+    margin-left: 225px;
+  }
+
+  .title_name {
+    top: 15%;
+    left: 45%;
+  }
+  
+  .title_surname {
+    top: 25%;
+    left: 41%;
+  }
+
+}
+
+@media(min-width: 1280px) {
+  .created_title {
+    left: 42%;
+    font-size: 16px;
+    opacity: 0.7;
+  }
+  
+  .title_developer {
+    font-size: 21px;
+  }
+
+  .social_list {
+   width: 175px;
+   margin-left: 225px;
+
+  }
+  
+  .title_surname {
+    top: 25%;
+    left: 43%;
+  }
+}
